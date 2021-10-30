@@ -1,8 +1,17 @@
 .navbar-nav {
-    margin-left: 40%;
+    margin-left: 50%;
 }
 
 .jumbotron {
     background-image: url("../images/hero.png");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+ .jumbotron h1 {
+     color: white;
+ }
