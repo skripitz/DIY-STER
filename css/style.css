@@ -52,11 +52,22 @@
 
  /*Featured Posts*/
 .featured {
-    padding: 20px;
-}
-.mb-2 {
-    padding: 20px;
+    padding: 10px;
 }
 
 /*Contents*/
+.brand-content {
+    font-family: 'Fredericka the Great', cursive;
+}
 
+.container {
+    margin: 10px;
+}
+
+/*pagination*/
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
