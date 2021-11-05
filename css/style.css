@@ -1,17 +1,62 @@
-.navbar-nav {
-    margin-left: 50%;
+/*Nav*/
+.py-3 {
+    
+    color: black;
+    display: block; 
+    margin: 10px;
+    border-bottom: 1px solid #dee2e6;
+}
+.blog-header-logo {
+    font-family: 'Fredericka the Great', cursive;
+    height:auto;
+    width: auto;
 }
 
+.p-2 {
+    
+    color: black;
+    display: block;
+    padding: 5px;
+}
+
+.py-1 {
+    margin: 10px;
+}
+
+/*Jumbotron*/
 .jumbotron {
     background-image: url("../images/hero.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     max-width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 20px;
+    margin: 20px;
 }
- .jumbotron h1 {
-     color: white;
+
+.display-4 {
+    color: white;
+    display:flex;
+    align-items: center;   
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
  }
+
+ .DIY-STER{
+    font-family: 'Fredericka the Great', cursive;
+    padding-left: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+ }
+
+ /*Featured Posts*/
+.featured {
+    padding: 20px;
+}
+.mb-2 {
+    padding: 20px;
+}
+
+/*Contents*/
+
