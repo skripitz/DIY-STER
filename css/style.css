@@ -1,3 +1,4 @@
+/*homepage css*/
 /*Nav*/
 .py-3 {
     
@@ -8,8 +9,7 @@
 }
 .blog-header-logo {
     font-family: 'Fredericka the Great', cursive;
-    height:auto;
-    width: auto;
+    font-size: xx-large;
 }
 
 .p-2 {
@@ -60,10 +60,6 @@
     font-family: 'Fredericka the Great', cursive;
 }
 
-.container {
-    margin: 10px;
-}
-
 /*pagination*/
 .pagination {
     display: flex;
@@ -71,4 +67,33 @@
     align-items: center;
     margin: 10px;
     padding: 10px;
+}
+
+.wood-title {
+    color: orange;
+}
+
+.clay-title {
+    color: purple;
+}
+/*END hompage 
+
+
+
+/*Getting Started*/
+
+/*side bar*/
+
+.start-here {
+    background-color: #343a40;
+    border-radius: 3px;
+    
+}
+
+.active-text {
+    color: white;
+}
+
+.start-here svg {
+    color: white;
 }
